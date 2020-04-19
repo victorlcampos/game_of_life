@@ -1,0 +1,12 @@
+<div data-controller="life">
+  <label>Tamanho do Tabuleiro</label>
+  <input data-target="life.boardSize" type="text" value="4">
+
+  <button data-action="click->life#generate">Gerar Tabuleiro</button>
+  <button data-action="click->life#initGeneration">Iniciar Próxma Geração</button>
+
+  <hr>
+
+  <table data-target="life.board" class='board'>
+  </table>
+</div>
